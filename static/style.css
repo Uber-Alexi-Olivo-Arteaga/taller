@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(to bottom, #000000, #8B0000);
+    background: linear-gradient(to bottom, #8B0000, #000000);
     color: #FFFFFF;
     min-height: 100vh;
     display: flex;
