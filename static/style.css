@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #000000, #8B0000);
+    color: #FFFFFF;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Hero (Encabezado) */
+.hero {
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #F5C6C6;
+    margin-bottom: 15px;
+}
+
+.hero .subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #D8A7A7;
+}
+
+/* Contenido principal (tarjetas) */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    color: #333333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #8B0000;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #D8A7A7;
+}
+
+.copyright {
+    font-weight: 400;
+}
+
+.contact-info {
+    font-weight: 400;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+.hero .subtitle {
+    font-size: 1rem;
+}
+
+.footer {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content {
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+}
+}
