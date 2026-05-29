@@ -20,5 +20,6 @@ from app1.views import presentacion
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-  path('test/', presentacion, name='presentacion'),
+    path('presentacion/', presentacion, name='presentacion'),
+    path('app2test/', presentacion, name='presentacion'),
 ]
